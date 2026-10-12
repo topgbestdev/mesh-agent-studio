@@ -1,0 +1,21 @@
+[project]
+name = "mesh-agent-studio"
+version = "0.1.0"
+description = "Unified open-source 3D AI modeling workflow with Blender, photogrammetry, and neural reconstruction."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "topgbestdev" }]
+
+[project.optional-dependencies]
+dev = [
+  "black",
+  "ruff",
+  "pytest",
+]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100

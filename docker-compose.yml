@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  mesh-agent-studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mesh-agent-studio
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: ["bash", "-lc", "python -V && ls -la"]
+    stdin_open: true
+    tty: true

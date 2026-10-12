@@ -1,0 +1,14 @@
+# Core Python utilities
+numpy
+pillow
+pyyaml
+rich
+click
+
+# 3D tooling
+open3d
+trimesh
+pygltflib
+
+# Optional ML / reconstruction dependencies
+# Use project-specific installs for Nerfstudio / Instant-NGP / Meshroom separately.
